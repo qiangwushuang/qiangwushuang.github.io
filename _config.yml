@@ -81,8 +81,7 @@ gitalk:
   clientSecret: 10abbb3ba08954d1d030188fb9b6526c633274bb
   repo: qiangwushuang.github.io
   owner: qiangwushuang
-  proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
-
+  proxy: https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token
 # 输入Google Analytics web tracking code
 google_analytics:
 
