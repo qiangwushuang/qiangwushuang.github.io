@@ -73,15 +73,15 @@ footer-text: Copyright (c) 2021 qiangwushuang
 #
 
 # 输入Disqus shortname，即可添加评论区，请查阅文档，设置自己的disqus站点，不要继续使用我的站点loffer
-#disqus: qiangwushuang #shortname
+disqus: qiangwushuang #shortname
 
 # 输入Gitalk相关设定，即可添加评论区，具体请看教程
-gitalk:
-  clientID: 6ad92426e41080cf3ca5
-  clientSecret: 10abbb3ba08954d1d030188fb9b6526c633274bb
-  repo: qiangwushuang.github.io
-  owner: qiangwushuang
-  proxy: https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token
+#gitalk:
+#  clientID: 6ad92426e41080cf3ca5
+#  clientSecret: 10abbb3ba08954d1d030188fb9b6526c633274bb
+#  repo: qiangwushuang.github.io
+#  owner: qiangwushuang
+#  proxy: https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token
 # 输入Google Analytics web tracking code
 google_analytics:
 
