@@ -3,7 +3,7 @@ layout: post
 title: vs2015编译libzmq
 date: 2021-03-15
 Author: qiangwushuang 
-tags: [zmq][build][visual studio]
+tags: [zmq][build][visualstudio]
 comments: true
 toc: true
 ---
