@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vs2015 编译libzmq
+title: vs2015编译libzmq
 date: 2021-03-15
 Author: qiangwushuang 
 tags: [zmq][build][visual studio]
