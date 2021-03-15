@@ -5,7 +5,7 @@ date: 2021-02-24
 Author: qiangwushuang 
 tags: [图床]
 comments: true
-toc: true
+toc: false
 ---
 
 在浏览某网站的时候发现网站的图片都是https://\*tva4\*.sinaimg.cn/\*/\*.jpg格式的，访问速度非常快，研究下发现原来网站把新浪相册的图片作为了自己的图床使用，这个思路非常好。  
