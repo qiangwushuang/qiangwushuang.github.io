@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Docker设置代理
+title: git设置代理
 date: 2021-03-15
 Author: qiangwushuang 
-tags: [docker,proxy]
+tags: [git,proxy]
 comments: true
 toc: false
 ---
