@@ -4,4 +4,4 @@ title: 关于
 permalink: /about/
 ---
 
-这是一个关于页面，请编辑about.md以介绍你的博客。
+李强，2015年参加工作，7年CAA开发经验。

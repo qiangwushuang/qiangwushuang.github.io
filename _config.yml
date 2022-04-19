@@ -11,7 +11,7 @@ name: qiangwushuang
 description: 我的博客
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
-url: 
+url: q.devfun.pw
 
 # 添加你的博客的二级域名，一般来说是你的repository名
 # 如果你的博客的URL是：(http://yourusername.github.io/repository-name)
@@ -52,14 +52,14 @@ footer-links:
   weibo:  #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
-  email: #youremailaddress@mail.com
+  email: liqiang@devfun.pw
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
   github: qiangwushuang #https://github.com/<>
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
-  rss: #随便填点啥RSS就能用了
+  rss: "enable"
   stackoverflow: # http://stackoverflow.com/<>
   tumblr: # https://<username>.tumblr.com
   twitter: # https://www.twitter.com/<your_twitter_username> 
