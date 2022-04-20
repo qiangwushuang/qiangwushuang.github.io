@@ -3,7 +3,7 @@ layout: post
 title: 群晖Docker安装MySQL及初始配置
 date: 2022-04-19
 Author: qiangwushuang 
-tags: [Docker,MySQL]
+tags: [docker,mysql]
 comments: true
 toc: false
 ---
