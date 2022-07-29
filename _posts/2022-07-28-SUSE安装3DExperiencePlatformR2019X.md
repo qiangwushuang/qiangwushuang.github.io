@@ -162,3 +162,8 @@ cd ./AM_3DEXP_Platform.AllOS/1/
 ### 数据库配置
 
 ### 3DE安装
+1. 3DSearch
+只需要配置域名，其他采用默认选项。
+2. 3DSpace  
+😓在安装3DSpaceIndex的时候使用默认选项一直失败，重试多次没有解决。
+尝试重新安装SLES 
