@@ -12,8 +12,8 @@ toc: false
 此文章记录使用SUSE Linux Enterprise Server操作系统安装整个3DExperience Platform R2019X的过程，使用个人零碎时间安装，因此安装可能会持续很长一段时间。  
 文章会尽量详细记录从操作系统安装到3DE安装完成的整个过程，如安装遇到问题也会在下面进行详细记录解决方法。因此整个文章可能会比较乱。
 ## 一些缩写  
-文本|缩写|说明
--|-|-
+|文本|缩写|说明|
+|-|-|-|
 3DExperience_Platform_R2019x|3DE
 SUSE Linux Enterprise Server 15 SP4|SUSE
 VMWare Workstation Pro 16 |VMWare
