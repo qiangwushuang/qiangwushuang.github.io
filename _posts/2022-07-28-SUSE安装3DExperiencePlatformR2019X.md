@@ -12,26 +12,26 @@ toc: false
 此文章记录使用SUSE Linux Enterprise Server操作系统安装整个3DExperience Platform R2019X的过程，使用个人零碎时间安装，因此安装可能会持续很长一段时间。  
 文章会尽量详细记录从操作系统安装到3DE安装完成的整个过程，如安装遇到问题也会在下面进行详细记录解决方法。因此整个文章可能会比较乱。
 ## 一些缩写  
-|文本|缩写|说明|
-|-|-|-|
-3DExperience_Platform_R2019x|3DE
-SUSE Linux Enterprise Server 15 SP4|SUSE
-VMWare Workstation Pro 16 |VMWare
-MSSQL Server|SQLServer
+|文本|缩写|说明|  
+|-|-|-|  
+|3DExperience_Platform_R2019x|3DE||  
+|SUSE Linux Enterprise Server 15 SP4|SUSE||  
+|VMWare Workstation Pro 16 |VMWare||  
+|MSSQL Server|SQLServer||  
 
 # 安装介质
 ## 操作系统  
 [SUSE Linux Enterprise Server 15 SP4](https://www.suse.com/download/sles/)  
 ## 3DExperiencePlatform  
-V6R2019x.AM_3DEXP_Platform.AllOS.1-9.tar
-V6R2019x.AM_3DEXP_Platform.AllOS.2-9.tar
-V6R2019x.AM_3DEXP_Platform.AllOS.3-9.tar
-V6R2019x.AM_3DEXP_Platform.AllOS.4-9.tar
-V6R2019x.AM_3DEXP_Platform.AllOS.5-9.tar
-V6R2019x.AM_3DEXP_Platform.AllOS.6-9.tar
-V6R2019x.AM_3DEXP_Platform.AllOS.7-9.tar
-V6R2019x.AM_3DEXP_Platform.AllOS.8-9.tar
-V6R2019x.AM_3DEXP_Platform.AllOS.9-9.tar
+V6R2019x.AM_3DEXP_Platform.AllOS.1-9.tar  
+V6R2019x.AM_3DEXP_Platform.AllOS.2-9.tar  
+V6R2019x.AM_3DEXP_Platform.AllOS.3-9.tar  
+V6R2019x.AM_3DEXP_Platform.AllOS.4-9.tar  
+V6R2019x.AM_3DEXP_Platform.AllOS.5-9.tar  
+V6R2019x.AM_3DEXP_Platform.AllOS.6-9.tar  
+V6R2019x.AM_3DEXP_Platform.AllOS.7-9.tar  
+V6R2019x.AM_3DEXP_Platform.AllOS.8-9.tar  
+V6R2019x.AM_3DEXP_Platform.AllOS.9-9.tar  
 # 安装方式
 VMware Workstation Pro 16 虚拟机安装
 
@@ -165,5 +165,7 @@ cd ./AM_3DEXP_Platform.AllOS/1/
 1. 3DSearch
 只需要配置域名，其他采用默认选项。
 2. 3DSpace  
+
+
 😓在安装3DSpaceIndex的时候使用默认选项一直失败，重试多次没有解决。
 尝试重新安装SLES 
