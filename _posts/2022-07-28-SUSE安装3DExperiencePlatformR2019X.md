@@ -12,12 +12,12 @@ toc: false
 此文章记录使用SUSE Linux Enterprise Server操作系统安装整个3DExperience Platform R2019X的过程，使用个人零碎时间安装，因此安装可能会持续很长一段时间。  
 文章会尽量详细记录从操作系统安装到3DE安装完成的整个过程，如安装遇到问题也会在下面进行详细记录解决方法。因此整个文章可能会比较乱。
 ## 一些缩写  
-|文本|缩写|说明|  
-|-|-|-|  
-|3DExperience_Platform_R2019x|3DE||  
-|SUSE Linux Enterprise Server 15 SP4|SUSE||  
-|VMWare Workstation Pro 16 |VMWare||  
-|MSSQL Server|SQLServer||  
+|文本|缩写|说明|
+|-|-|-|
+|3DExperience_Platform_R2019x|3DE||
+|SUSE Linux Enterprise Server 15 SP4|SUSE||
+|VMWare Workstation Pro 16 |VMWare||
+|MSSQL Server|SQLServer||
 
 # 安装介质
 ## 操作系统  
@@ -166,6 +166,14 @@ cd ./AM_3DEXP_Platform.AllOS/1/
 只需要配置域名，其他采用默认选项。
 2. 3DSpace  
 
-
 😓在安装3DSpaceIndex的时候使用默认选项一直失败，重试多次没有解决。
 尝试重新安装SLES 
+
+1. 安装SLES过程和配置同Day1  
+#### 有变化的内容
+1. SQLServer采用docker方式进行安装  
+<font color='red'>SLES15SP5没有可用的Docker源，切换成SLES15SP1，以后安装东西还是选用上一个稳定系统版本安装吧，新版本很多软件都还没支持。</font>  
+
+## Day3(非第三天)  
+老婆生产出院了，恭喜我家多了一枚小公主👸。
+### 安装SLES15SP1
