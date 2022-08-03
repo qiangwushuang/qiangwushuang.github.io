@@ -79,10 +79,12 @@ make
 sudo make install
 ```
 安装gdb后依旧提示gdb错误，因此安装SQLServer过程中选择断开部分依赖安装SQLServer(不确定是否会出现问题)，以后还是尽量不要选择最新发布的系统版本，经查询GDB还没有支持SLES15 SP4😓手动安装gdb后sql server运行正常。  
-SQL Server的一些配置：
+SQL Server的一些配置：  
+
+3DPassport数据库
 ```shell
 #登录SQLServer
-sqlcmd -S localhost -U sa -P 'password' 
+sqlcmd -S localhost -U sa -P 'Qwerty12345' 
 
 #3DPassport数据库
 use master;
@@ -125,6 +127,10 @@ CREATE SCHEMA passtkdb AUTHORIZATION x3dpasstokens;
 
 GRANT CREATE TABLE, ALTER, SELECT, INSERT, UPDATE, DELETE ON DATABASE::passtkdb TO x3dpasstokens;
 
+```  
+
+3DDashbord数据库
+```shell
 #3DDashbord数据库
 USE master;
 
@@ -136,7 +142,7 @@ ALTER DATABASE dashdb SET READ_COMMITTED_SNAPSHOT ON;
 CREATE LOGIN x3ddash WITH PASSWORD = 'Qwerty12345';
 CREATE LOGIN x3ddashadmin WITH PASSWORD = 'Qwerty12345';
 USE dashdb;
-
+go;
 CREATE USER x3ddash FOR LOGIN x3ddash WITH DEFAULT_SCHEMA = dashdb;
 CREATE USER x3ddashadmin FOR LOGIN x3ddashadmin WITH DEFAULT_SCHEMA = dashdb;
 
@@ -144,14 +150,12 @@ CREATE SCHEMA dashdb AUTHORIZATION x3ddashadmin;
 
 GRANT CREATE TABLE, ALTER, SELECT, INSERT, UPDATE, DELETE ON DATABASE::dashdb TO x3ddashadmin;
 GRANT SELECT, INSERT, UPDATE, DELETE, ALTER ON SCHEMA::dashdb TO x3ddash;
-
-
 ```
 
 
 5. 安装
 ```shell
-mkdir /var/DassaultSystemes #创建DassaultSystems目录，使用StartTUI.sh安装过程中提示必须预先创建此目录，在3DDashboard安装过程中有提示。
+mkdir /var/DassaultSystemes #创建DassaultSystems目录，使用StartTUI.sh安装过程中提示必须预先创建此目录。
 cd ./AM_3DEXP_Platform.AllOS/1/
 ./StartTUI.sh
 ```
@@ -172,8 +176,21 @@ cd ./AM_3DEXP_Platform.AllOS/1/
 1. 安装SLES过程和配置同Day1  
 #### 有变化的内容
 1. SQLServer采用docker方式进行安装  
-<font color='red'>SLES15SP5没有可用的Docker源，切换成SLES15SP1，以后安装东西还是选用上一个稳定系统版本安装吧，新版本很多软件都还没支持。</font>  
+<font color='red'>SLES在x86架构上竟然没有可用的源，只用通过二进制的方式进行安装。</font>  
 
 ## Day3(非第三天)  
 老婆生产出院了，恭喜我家多了一枚小公主👸。
 ### 安装SLES15SP1
+#### 新进展  
+在[SUSE官方文档](https://documentation.suse.com/sles/15-SP2/single-html/SLES-container/index.html#cha-containers-basics)里面找到了这一篇文章介绍了如何在SLES上安装Docker的方式。其中4.1使用YaST启用容器模块貌似不是必须的，另外SUSEConnect中的版本号可以根据实际系统情况自己配置。
+#### Docker方式安装SQLServer  
+查看[微软官方文档](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16&pivots=cs1-bash)
+
+### 继续之前的安装（3DDashbord以及3DPassport查看Day1）
+
+
+<font color='red'>重新安装依旧失败，因此放弃SUSE安装，重新开贴使用WindowsServer2022进行安装</font>  
+错误内容：
+![3DSpaceIndex_Install_Error](https://tva1.sinaimg.cn/large/8343d05bgy1h4tsup31imj210a0d0ab9.jpg)
+
+
