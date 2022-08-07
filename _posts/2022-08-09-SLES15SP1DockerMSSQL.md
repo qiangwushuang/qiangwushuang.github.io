@@ -1,9 +1,9 @@
 ---
 layout: post
-title: SLES15SP1_docker_运行_mssql2017
+title: SLES15SP1Docker下运行mssql2017
 date: 2022-08-09
 Author: qiangwushuang 
-tags: [ SUSE Linux Enterprise Server 15 SP1,Docker,MSSQL2017 ]
+tags: [SUSE Linux Enterprise Server 15 SP1,Docker,MSSQL2017]
 comments: true
 toc: false
 ---
