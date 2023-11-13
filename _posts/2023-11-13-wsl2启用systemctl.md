@@ -7,6 +7,7 @@ tags: [wsl,systemctl]
 comments: true
 toc: false
 ---
+
 1. linux下配置wsl.conf文件，添加systemd配置项
 ```shell
 sudo vim /etc/wsl.conf
