@@ -17,8 +17,8 @@ wget http://repo.mysql.com/mysql-apt-config_0.8.16-1_all.deb
 ```bash
 sudo dpkg -i mysql-apt-config_0.8.16-1_all.deb
 ```  
-![AptInstall1](https://tva1.sinaimg.cn/large/8343d05bly1gosocrt87zj20qd0aw74e.jpg)  
-![SelectVersion](https://tva1.sinaimg.cn/large/8343d05bly1gosocw9mrqj20qh0b2wej.jpg)  
+![AptInstall1](https://i0.wp.com/tva1.sinaimg.cn/large/8343d05bly1gosocrt87zj20qd0aw74e.jpg)  
+![SelectVersion](https://i0.wp.com/tva1.sinaimg.cn/large/8343d05bly1gosocw9mrqj20qh0b2wej.jpg)  
 3. 更新软件源  
 ```shell
 sudo apt update
@@ -28,7 +28,7 @@ sudo apt update
 sudo apt install mysql-server
 ```  
 配置数据库密码  
-![set passwd](https://tva1.sinaimg.cn/large/8343d05bly1gosocyp1qkj20qe098746.jpg)
+![set passwd](https://i0.wp.com/tva1.sinaimg.cn/large/8343d05bly1gosocyp1qkj20qe098746.jpg)
 
 5. 启动MySQL Server  
 ```bash

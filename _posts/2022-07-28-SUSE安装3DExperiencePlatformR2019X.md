@@ -213,7 +213,7 @@ cd ./AM_3DEXP_Platform.AllOS/1/
 
 <font color='red'>重新安装依旧失败，因此放弃SUSE安装，重新开贴使用WindowsServer2022进行安装</font>  
 错误内容：
-![3DSpaceIndex_Install_Error](https://tva1.sinaimg.cn/large/8343d05bgy1h4tsup31imj210a0d0ab9.jpg)
+![3DSpaceIndex_Install_Error](https://i0.wp.com/tva1.sinaimg.cn/large/8343d05bgy1h4tsup31imj210a0d0ab9.jpg)
 
 ### 尝试使用Red Hat Enterprise Linux 7.9安装
 <font color='red'>重新安装依旧失败，因此放弃SUSE安装，重新开贴使用WindowsServer2022进行安装</font> 
