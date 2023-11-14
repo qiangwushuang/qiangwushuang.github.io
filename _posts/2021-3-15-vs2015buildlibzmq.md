@@ -19,11 +19,11 @@ ZeroMq是一个开源的消息队列网络框架，支持进程内和进程间�
 ```注意新版zeromq已经不建议使用vs直接进行编译```  
 手动修改文件：.\builds\deprecated-msvc\vs2015\libzmq\libzmq.vcxproj  
 将文件里面的stream_engine.hpp 修改为 stream_engine_base.hpp  
-![img1](https://i0.wp.com/tva1.sinaimg.cn/large/8343d05bgy1gokj9dr3rzj20i305uwf4.jpg)  
+![img1](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/8343d05bgy1gokj9dr3rzj20i305uwf4.jpg)  
 打开项目文件：.\builds\deprecated-msvc\vs2015\libzmq.sln  
 3. 配置宏  
 ZMQ_IOTHREAD_POLLER_USE_SELECT  
 ZMQ_POLL_BASED_ON_SELECT  
 ZMQ_USE_CV_IMPL_WIN32API  
-![定义宏](https://i0.wp.com/tva1.sinaimg.cn/large/8343d05bgy1gokjbs6dd5j21080ahdgd.jpg)  
+![定义宏](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/8343d05bgy1gokjbs6dd5j21080ahdgd.jpg)  
 4. 编译成功  
