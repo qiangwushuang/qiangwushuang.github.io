@@ -1,7 +1,7 @@
 ---
 layout: post
 title: wsl2启用systemctl
-date: 2023-11-12
+date: 2023-11-13
 Author: qws 
 tags: [wsl,systemctl]
 comments: true
