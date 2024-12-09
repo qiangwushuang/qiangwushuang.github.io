@@ -35,7 +35,8 @@ rpm -ivh *.rpm
 5. 切换源  
 > 此处使用华为源  
 ```shell  
+mv redflag.repo redflag.repo.bak
 curl https://mirrors.huaweicloud.com/artifactory/os-conf/centos/centos-7.repo >> /etc/yum.repos.d/CentOS-Base.repo
-yum clan all
+yum clean all
 yum makecache
 ```
