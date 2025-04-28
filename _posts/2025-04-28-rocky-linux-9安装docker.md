@@ -9,7 +9,7 @@ toc: false
 ---
 
 在Rocky Linux 9.x上安装docker-ce  
-1. 可选操作，切换为阿里云源
+1. 可选操作，切换为阿里云源  
 ```shell  
 sed -e 's|^mirrorlist=|#mirrorlist=|g' \
     -e 's|^#baseurl=http://dl.rockylinux.org/$contentdir|baseurl=https://mirrors.aliyun.com/rockylinux|g' \
@@ -17,7 +17,7 @@ sed -e 's|^mirrorlist=|#mirrorlist=|g' \
     /etc/yum.repos.d/rocky*.repo
 
 ```
-2. 安装docker-ce
+2. 安装docker-ce  
 ```shell
 # 添加Docker Repo
 dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
@@ -27,7 +27,7 @@ dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce
 No such command: config-manager. Please use /bin/dnf --help
 It could be a DNF plugin command, try: "dnf install 'dnf-command(config-manager)'"
 ```  
-需要首先安装 dnf-plugins-core
+需要首先安装 dnf-plugins-core  
 ```shell 
 dnf install dnf-plugins-core
 ```  
