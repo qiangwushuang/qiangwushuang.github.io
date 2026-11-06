@@ -2,7 +2,7 @@
 layout: post
 title: 移动光猫改桥接全流程：从拿到超级密码到路由器拨号（HG5382A5 实战）
 date: 2026-10-24
-Author: qiangwushuang
+author: qiangwushuang
 tags: [光猫, 桥接, 路由器, 移动宽带, HG5382A5]
 comments: true
 toc: true
@@ -13,6 +13,8 @@ toc: true
 > 全程不需要拆机、不需要恢复出厂、不刷固件、不影响保修。
 >
 > ⚠️ 本文仅用于自己名下的设备调试。操作前请确认设备归属。
+
+<!-- more -->
 
 ---
 
@@ -408,7 +410,9 @@ await $post('get_value_by_xmlnode',{Username:'InternetGatewayDevice.DeviceInfo.X
 > 桥接模式下光猫不该再发 IP。留着的话，它和路由器的 DHCP 会打架，
 > 内网设备可能拿到错误的网关地址。
 
-> ![移动光猫改桥接全流程：从拿到超级密码到路由器拨号（HG5382A5 实战）](/assets/posts/2026-10-24-mobile-optical-modem-bridge.png "移动光猫改桥接全流程：从拿到超级密码到路由器拨号（HG5382A5 实战）")
+![移动光猫改桥接全流程：从拿到超级密码到路由器拨号（HG5382A5 实战）](/assets/posts/2026-10-24-mobile-optical-modem-bridge.png "HG5382A5 光猫桥接设置界面，连接模式选择「桥接」")
+
+*图：HG5382A5 光猫桥接设置界面（连接模式选择「桥接」）*
 
 ### 第 4 步：确认 LAN 端口绑定
 
